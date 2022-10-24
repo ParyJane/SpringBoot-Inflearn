@@ -1,0 +1,19 @@
+  <!DOCTYPE HTML>
+  <html>
+  <head>
+      <title>Hello</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+  Hello <br>
+  <a href="/hello">hello </a>
+  <a href="/world">world</a> <br><br>
+  <details>
+  	<summary>클릭!</summary> 
+  	<br>
+  	<b>컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버( viewResolver )가 화면을 찾아서 처리한다.</b><br>
+  	- 스프링 부트 템플릿엔진 기본 viewName 매핑 <br>
+  	- resources:templates/ + {ViewName} + .html
+  </details>
+  </body>
+  </html>

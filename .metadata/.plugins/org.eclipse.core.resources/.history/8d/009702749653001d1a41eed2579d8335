@@ -1,0 +1,14 @@
+  <!DOCTYPE HTML>
+  <html>
+  <head>
+      <title>Hello</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+  Hello <br>
+  <a href="/hello">hello </a>
+  <a href="/world">world</a> <br>
+  스프링 부트 템플릿엔진 기본 viewName 매핑 <br>
+  resources:templates/ + {ViewName} + .html
+  </body>
+  </html>

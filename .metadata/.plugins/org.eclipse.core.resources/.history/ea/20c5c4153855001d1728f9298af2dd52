@@ -1,0 +1,7 @@
+package hello.hellospring.repository;
+
+public class MemoryMemberRepositoryTest {
+	
+	MemoryMemberRepository repository = new MemoryMemberRepository();
+
+}

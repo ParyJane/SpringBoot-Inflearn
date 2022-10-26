@@ -1,0 +1,16 @@
+package hello.hellospring.repository;
+
+import org.junit.jupiter.api.Test;
+
+import hello.hellospring.domain.Member;
+
+public class MemoryMemberRepositoryTest {
+	
+	MemoryMemberRepository repository = new MemoryMemberRepository();
+	
+	
+	@Test
+	public void save() {
+		Member member = new Member();
+	}
+}

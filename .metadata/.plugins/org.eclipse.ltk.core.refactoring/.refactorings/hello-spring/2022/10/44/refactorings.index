@@ -1,3 +1,4 @@
 1666613321792	Delete element
 1666702454682	Rename resource 'static-content'
 1666702565732	Rename resource 'static-content.html'
+1666935029284	Extract method 'validateDuplicateMember'

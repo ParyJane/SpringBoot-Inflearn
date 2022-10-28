@@ -1,0 +1,9 @@
+package hello.hellospring.service;
+
+import hello.hellospring.repository.MemberRepository;
+
+public class MemberService {
+	
+	MemberRepository memberRepository = new MemberRepository();
+
+}

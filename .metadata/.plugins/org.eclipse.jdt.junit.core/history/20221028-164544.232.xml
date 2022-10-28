@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MemberServiceTest.중복_회원_예외" project="hello-spring" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.hellospring.service.MemberServiceTest" time="0.061" displayname="MemberServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.hellospring.service.MemberServiceTest]">
+    <testcase name="중복_회원_예외" classname="hello.hellospring.service.MemberServiceTest" time="0.061" displayname="중복_회원_예외()" uniqueid="[engine:junit-jupiter]/[class:hello.hellospring.service.MemberServiceTest]/[method:중복_회원_예외()]"/>
+  </testsuite>
+</testrun>

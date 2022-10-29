@@ -4,7 +4,11 @@
 
 ### 0. 강의 소개 
 ### 1. 프로젝트 환경 설정
+ * **View 환경설정 ([index.html](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/resources/static/index.html) / [hello.html](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/resources/templates/hello.html) / [HelloController](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/controller/HelloController.java))**
 ### 2. 스프링 웹 개발 기초 
+ * **정적 컨텐츠**
+ * **MVC와 템플릿 엔진**
+ * **API**
 ### 3. 회원 관리 예제 - 백엔드 개발
   * **회원 도메인과 리포지토리 만들기 ([Member](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/domain/Member.java) / [MemberRepository](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/repository/MemberRepository.java) / [MemoryMemberRepository](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java))**
     - Optional

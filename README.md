@@ -11,8 +11,8 @@
  * **API**
 ### 3. 회원 관리 예제 - 백엔드 개발
   * **회원 도메인과 리포지토리 만들기 ([Member](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/domain/Member.java) / [MemberRepository](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/repository/MemberRepository.java) / [MemoryMemberRepository](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java))**
-    - Optional
-    - stream()
+    - Optional 클래스[💡](https://www.notion.so/Stream-058a5a7ac492444e91d7184b39ce9132#972627f95b114bd9838d18937476c461)
+    - stream()[💡](https://www.notion.so/Stream-42f86dbd422d4f0aa2659e3936c5246a)
   * **회원 리포지토리 테스트 케이스 작성 ([MemoryMemberRepositoryTest](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java))**
     - JUnit 프레임워크로 테스트 실행 (@Test)
     - @BeforeEach : 각 테스트가 시작될 때 마다 실행 / @AfterEach : 각 테스트가 종료될 때 마다 실행 

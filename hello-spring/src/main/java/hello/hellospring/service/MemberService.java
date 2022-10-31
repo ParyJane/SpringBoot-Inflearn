@@ -10,14 +10,12 @@ import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
 
-@Service
 public class MemberService {
 	
 	private final MemberRepository memberRepository;
 	
 	// 회원 리포지토리 코드가 회원 서비스 코드를 DI이 함 
-	@Autowired
-	public MemberService(MemoryMemberRepository memberRepository) {
+	public MemberService(MemberRepository memberRepository) {
 		this.memberRepository = memberRepository;
 		
 	}

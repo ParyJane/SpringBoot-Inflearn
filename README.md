@@ -28,6 +28,9 @@
     - @Componet 를 포함하는 애노테이션도 스프링 빈으로 자동 등록 (@Controller, @Service, @Repository)
     - 생성자에 @Autowired 를 사용하면 객체 생성 시점에 스프링 컨테이서에서 해당 스프링 빈을 찾아 주입
     - 스프링 컨테이너에 스프링 빈을 등록할 때 기본으로 싱글톤으로 등록함(유일하게 하나만 등록하여 공유)
+  * **자바 코드로 직접 스프링 빈 등록하기 ([SpringConfig](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/service/SpringConfig.java))**
+    - 회원 서비스와 회원 리포지토리의 @Service, @Repository, @Autowired 를 제거하고 진행
+    - 주의: ~~*SpringConfig를 통해*~~ 스프링 빈으로 등록하지 않고 직접 생성한 객체에서는 동작 안 함
 ### 5. 회원 관리 예제 - 웹 MVC 개발
 ### 6. 스프링 DB 접근 기술
 ### 7. AOP

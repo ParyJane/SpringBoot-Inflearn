@@ -39,6 +39,16 @@
     - @GetMapping : 일반적으로 조회할 때 많이 사용 (url 주소)
     - @PostMapping : 일반적으로 데이터를 등록할 때 많이 사용 (form에 데이터를 넣어서 전달하는 방식)
   * **회원 웹 기능 - 조회 ([memberList.html](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/resources/templates/members/memberList.html))**
-### 6. 스프링 DB 접근 기술
+### 6. 스프링 DB 접근 기술 [💡]([https://bejewled-hornet-2b8.notion.site/Stream-058a5a7ac492444e91d7184b39ce9132#972627f95b114bd9838d18937476c461](https://www.notion.so/88c333bc21b7410bab598eb6e78f3d8a#56b0371574854f8c8df2bc93121957f1))
+  * **H2 데이터 베이스 설치** 
+  * **순수 JDBC** 
+    - 개방 폐쇄 원칙(OCP, Open-Closed Principle) : 확장에는 열려있고, 수정, 변경에는 닫혀있다.
+  * **스프링 통합 테스트** 
+    - @SpringBootTest : 스프링 컨테이너와 테스트를 함께 실행한다.
+    - @Transactional : 테스트 시작 전에 트랜젝션을 시작하고, 테스트 완료 후에 항상 롤백한다.(다음 테스트에 영향X)
+  * **스프링 JdbcTemplate** 
+    - RowMapper<T> : JdbcTemplate에서 ResultSet을 행 단위로 매핑하는데 사용하는 인터페이스
+  * **JPA** 
+  * **스프링 데이터 JPA** 
 ### 7. AOP
 ### 8. 다음으로

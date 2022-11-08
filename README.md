@@ -36,7 +36,7 @@
     - 스프링은 컨테이너에 등록된 페이지 ~~*home.html*~~ 를 우선적으로 검색하고 등록된 페이지가 없으면  ```static/index.html```을 오픈
   * **회원 웹 기능 - 홈 화면 추가 ([home.html](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/resources/templates/home.html) / [HomeController](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/controller/HomeController.java))**
   * **회원 웹 기능 - 등록 ([creatMemberForm.html](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/resources/templates/members/creatMemberForm.html) / [MemberForm](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/java/hello/hellospring/controller/MemberForm.java))**
-    - @GepMapping : 일반적으로 조회할 때 많이 사용 (url 주소)
+    - @GetMapping : 일반적으로 조회할 때 많이 사용 (url 주소)
     - @PostMapping : 일반적으로 데이터를 등록할 때 많이 사용 (form에 데이터를 넣어서 전달하는 방식)
   * **회원 웹 기능 - 조회 ([memberList.html](https://github.com/ParyJane/SpringBoot-Inflearn/blob/master/hello-spring/src/main/resources/templates/members/memberList.html))**
 ### 6. 스프링 DB 접근 기술

@@ -51,4 +51,11 @@
   * **JPA** 
   * **스프링 데이터 JPA** 
 ### 7. AOP
+  * **AOP가 필요한 상황**
+    - 공통 관심 사항 vs 핵심 관심 사항 : 회원가입, 회원 조회 같은 기능은 핵심 관심 사항이고, 각 메소드의 시간을 측정하는 로직은 공통 관심 사항이다.
+  * **AOP 적용**
+    - AOP(Aspect Oriented Programming) : 관점 지향 프로그램
+    - 핵심 관심 사항을 깔끔하게 유지할 수 있다.
+    - 원하는 적용 대상을 선택할 수 있다.
+    - ```@Aspect``` / ```@Component``` / ```@Around("execution(* hello.helloSpring.service..*(..))")```
 ### 8. 다음으로
